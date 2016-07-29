@@ -1,0 +1,42 @@
+.title h1{
+	width:100%;
+	height:auto;
+}
+.ee img{
+	width:100%;
+	height:auto;
+}
+.vid iframe{
+	width:100%;
+	height:auto;
+}
+@media
+{
+	.ee img{
+		display:none;
+	}
+	.title h1{
+		display:none;
+	}
+	.vid iframe{
+	display: none;
+}
+}
+@media  (max-width: 300px) and (orientation:portrait){
+   	.ee img{
+   		display:block;
+   	}
+   }
+ @media screen and (device-aspect-ratio: 4/3) {
+   	 
+  .title h1{
+    	display:block;
+    }
+   }
+   @media  (-webkit-min-device-pixel-ratio: 2),(min-resolution: 90 dpi){
+   	.vid iframe{
+   		display: block;
+   	}
+   	 
+ 
+   }
